@@ -27,7 +27,7 @@ describe('Basic user flow for Website', () => {
 
     for (let i = 0; i < prodItems.length; i++)
     {
-        console.log(`Checking product item ${i + 1}/${prodItems.length}`);
+        //console.log(`Checking product item ${i + 1}/${prodItems.length}`);
         // Grab the .data property of <product-items> to grab all of the json data stored inside
         data = await prodItems[i].getProperty('data');
         // Convert that property to JSON
